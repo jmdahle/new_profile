@@ -1,0 +1,62 @@
+body {
+    background: #cfd8dc;
+}
+p {
+    padding-top: 3pt;
+    padding-bottom: 3pt;
+}
+
+#li-profile-link {
+    width: 35px;
+}
+
+#sub-title {
+    font-size: 70%;
+}
+.top-nav {
+    margin-top: 30px;
+    font-size: 16pt;
+}
+.sidebar-row {
+    margin-bottom: 2px;
+}
+.project-title {
+    color: #1a237e;
+    font-weight: bold;
+}
+
+.sidenav {
+    opacity: 0.85;
+    padding: 15px;
+}
+
+.nav-dark {
+    color: #1a237e;
+}
+
+.nav-dark:hover {
+    color: #ffee58;
+}
+
+.nav-light {
+    color: #90caf9;
+    padding-right: 24px;
+}
+
+.nav-light:hover {
+    color: #fff59d;
+}
+
+.card-footer {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-right: 24px;
+    padding-left: 24px;
+}
+
+@media screen and (max-width: 600px) {
+    .top-nav {
+        margin-top: 0px;
+        font-size: 12pt;
+    }
+}
