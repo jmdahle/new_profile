@@ -1,3 +1,6 @@
+* {
+    font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif;
+}
 body {
     background: #cfd8dc;
 }
@@ -6,15 +9,21 @@ p {
     padding-bottom: 3pt;
 }
 
+#page-header {
+    background: linear-gradient(to bottom, #455a64, #cfd8dc); 
+}
 #li-profile-link {
     width: 35px;
 }
-
+#main-title, #sub-title {
+    /* color: #37474f; */
+    color: #1a237e;
+    /* -webkit-text-stroke: 1px #fff59d;    */
+}
 #sub-title {
     font-size: 70%;
 }
 .top-nav {
-    margin-top: 30px;
     font-size: 16pt;
 }
 .sidebar-row {
@@ -31,11 +40,13 @@ p {
 }
 
 .nav-dark {
-    color: #1a237e;
+    /* color: #37474f; */
+    color: #ffee58;
 }
 
 .nav-dark:hover {
     color: #ffee58;
+    text-decoration: underline;
 }
 
 .nav-light {
@@ -45,6 +56,7 @@ p {
 
 .nav-light:hover {
     color: #fff59d;
+    text-decoration: underline;
 }
 
 .card-footer {
@@ -58,5 +70,8 @@ p {
     .top-nav {
         margin-top: 0px;
         font-size: 12pt;
+    }
+    #main-title {
+        font-size: 22pt;
     }
 }

@@ -11,7 +11,8 @@
     <link href='https://fonts.googleapis.com/icon?family=Material+Icons' rel='stylesheet'>
     <!-- Materialize compiled and minified CSS -->
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css'>
-    <!-- local CSS -->
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed|Ubuntu&display=swap" rel="stylesheet">        <!-- local CSS -->
     <link rel='stylesheet' href='./assets/css/style.css'>
     <title>John Dahle / Portfolio</title>
 </head>
@@ -19,22 +20,22 @@
 <body>
     <!-- HEADER -->
     <div id='page-header' class='row blue-grey darken-2 blue-grey-text text-lighten-4'>
-        <div class='col s12 m9 l9'>
-            <h3><strong>John Dahle / </strong><span id='sub-title'>Project Portfolio</span></h3>
+        <div class='col s12'>
+            <h3 id='main-title'><strong>John Dahle / </strong><span id='sub-title'>Project Portfolio</span> / <a href='#' data-target='mobile-nav' class='sidenav-trigger nav-dark top-nav'>More Info</a></h3>
         </div>
-        <div class='col s12 m3 l3 right-align'>
-            <p class='top-nav'><a href='#' data-target='mobile-nav' class='sidenav-trigger nav-light'>More Info</a></p>
-        </div>
+        <!-- <div class='col s12 m3 l3 right-align'>
+            <p class='top-nav'><a href='#' data-target='mobile-nav' class='sidenav-trigger nav-dark'>More Info</a></p>
+        </div> -->
     </div>
     <!-- BODY -->
     <div class='row'>
         <!-- SIDEBAR  -->
         <div class='sidenav blue-grey lighten-2' id='mobile-nav'>
             <div class='row valign-wrapper'>
-                <div class='col s3'>
+                <div class='col s4'>
                     <img id='profile-img' class='responsive-img circle' src='./assets/images/dahle-square.png'>
                 </div>
-                <div class='col s9'>
+                <div class='col s8'>
                     <h5>John Dahle</h5>
                 </div>
             </div>
@@ -50,15 +51,13 @@
                     </div>
                 </div>
                 <div class='row valign-wrapper sidebar-row'>
-                    <div class='col s4 m3 l2'>
+                    <div class='col s4 m3 l2 right-align'>
                         <p><a href='https://www.linkedin.com/in/johndahle/' target='_blank'><img class='responsive-img' id='li-profile-link' src='./assets/images/LI-In-Bug.png' alt='LinkedIn'></a></p>
                     </div>
-                    <div class='col s8 m9 l10'>
+                    <div class='col s8 m9 l10 left-align'>
                         <p><a href='https://www.linkedin.com/in/johndahle/' target='_blank' class='nav-dark'>My LinkedIn Profile</a></p>                        
                     </div>
                 </div>
-
-                
             </div>
             <div class='divider'></div>
             <div class='section'>
@@ -71,7 +70,8 @@
                 <p>My son is a black-belt candidate in Tae Kwon Do. He got me into the practice some years back. I think it's so he can boss me around, since he is my senior in the dojang.</p>
                 <p>My favorite type of music is in the extreme metal genres. A current favorite is Horrendous, a death metal band from Phildelphia.</p>
             </div>
-            <div class='section'></div>
+            <div class='divider'></div>
+            <div class='section'>nbsp;</div>
         </div>
 
         <!-- Project Portfolio -->
@@ -94,8 +94,8 @@
                             <p>HTML, CSS, JavaScript, JQuery, Bootstrap</p>
                         </div>
                         <div class='section card-footer blue-grey darken-2'>
-                            <a href='https://jmdahle.github.io/TriviaGame/' class='nav-light'>Play the game</a>
-                            <a href='https://github.com/jmdahle/TriviaGame' class='nav-light'>View the code</a>
+                            <a href='https://jmdahle.github.io/TriviaGame/' class='nav-light' target='_blank'>Play the game</a>
+                            <a href='https://github.com/jmdahle/TriviaGame' class='nav-light' target='_blank'>View the code</a>
                         </div>
                     </div>
                     <!-- END portfolio project card -->
@@ -120,8 +120,8 @@
                             <p>HTML, CSS, JavaScript, JQuery, API, OAuth, List.js</p>
                         </div>
                         <div class='section card-footer blue-grey darken-2'>
-                            <a href='https://jmdahle.github.io/showup/index.html' class='nav-light'>See the site</a>
-                            <a href='https://github.com/jmdahle/showup' class='nav-light'>View the code</a>
+                            <a href='https://jmdahle.github.io/showup/index.html' class='nav-light' target='_blank'>See the site</a>
+                            <a href='https://github.com/jmdahle/showup' class='nav-light' target='_blank'>View the code</a>
                         </div>
                     </div>
                     <!-- END portfolio project card -->
@@ -144,8 +144,8 @@
                             <p>HTML, CSS, JavaScript, JQuery, Bootstrap</p>
                         </div>
                         <div class='section card-footer blue-grey darken-2'>
-                            <a href='https://jmdahle.github.io/deathmatch/index.html' class='nav-light'>Play the game</a>
-                            <a href='https://github.com/jmdahle/deathmatch' class='nav-light'>View the code</a>
+                            <a href='https://jmdahle.github.io/deathmatch/index.html' class='nav-light' target='_blank'>Play the game</a>
+                            <a href='https://github.com/jmdahle/deathmatch' class='nav-light' target='_blank'>View the code</a>
                         </div>
                     </div>
                     <!-- END portfolio project card -->
@@ -165,8 +165,8 @@
                             <p>HTML, CSS, JavaScript</p>
                         </div>
                         <div class='section card-footer blue-grey darken-2'>
-                            <a href='https://jmdahle.github.io/Word-Guess-Game/index.html' class='nav-light'>Play the game</a>
-                            <a href='https://github.com/jmdahle/Word-Guess-Game' class='nav-light'>View the code</a>
+                            <a href='https://jmdahle.github.io/Word-Guess-Game/index.html' class='nav-light' target='_blank'>Play the game</a>
+                            <a href='https://github.com/jmdahle/Word-Guess-Game' class='nav-light' target='_blank'>View the code</a>
                         </div>
                     </div>
                     <!-- END portfolio project card -->
